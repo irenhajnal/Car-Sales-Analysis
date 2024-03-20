@@ -17,7 +17,8 @@ This data analysis project aims to provide insights into the sales performance o
 Car Salses: The dataset used for this analysis is the "Car Sales.xlsx" file containing detailed information about each sale made by the company."
 
 ### Tools
-- Excel - Data Cleaning [Download here](https://microsoft.com)
+- Excel - Data Cleaning
+  - [Download here](https://microsoft.com)
 - SQL Server - Data Analysis
 - Power BI - Creating Reports
 
