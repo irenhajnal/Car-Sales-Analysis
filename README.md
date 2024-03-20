@@ -17,13 +17,12 @@ This data analysis project aims to provide insights into the sales performance o
 <img width="752" alt="Power BI Dashboard - Details" src="https://github.com/irenhajnal/Projects/assets/122035130/2f6e585b-91cf-406d-97eb-e3b2568135fa">
 
 ### Data Source
-Car Salses: The dataset used for this analysis is the "Car Sales.xlsx" file containing detailed information about each sale made by the company."
+Car Sales: The dataset used for this analysis is the "Car Sales.xlsx" file containing detailed information about each sale made by the company.
 
 
 ### Tools
 - Excel - Data Cleaning
   - [Download here](https://microsoft.com)
-- SQL Server - Data Analysis
 - Power BI - Creating Reports
 
 ### Data Cleaning and Preparation
@@ -58,6 +57,7 @@ The dashboard provides insights into key performance indicators (KPIs) related t
   5.	Company-Wise Sales Trend in Grid Form: A tabular grid that displays the sales trend for each company. The grid showcases the company name along with their YTD sales figures.
   6.	Details Grid Showing All Car Sales Information: A detailed grid that presents all relevant information for each car sale, including car model, body style, colour, sales amount, dealer region, date, etc.
 
+I used advanced DAX Functions
 
 Include some interesting code/features worked with. Here we include if we used subquery, cte, window function, etc.
 
