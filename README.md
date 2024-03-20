@@ -11,6 +11,7 @@
 - [Limitations](#limitations)
 
 ### Project Overview
+---
 This data analysis project aims to provide insights into the sales performance of a car dealership that sells various car models. The objective of this projects was to design and develop a dynamic and interactive Car Sales Dashboard using Power BI. The dashboard visualizes critical KPIs related to car sales, helping users understand the company's sales performance over time and make data-driven decisions.
 
 <img width="752" alt="Power BI Dashboard - Overview" src="https://github.com/irenhajnal/Projects/assets/122035130/15a4def3-428b-476c-baeb-10ced033ca18">
@@ -32,6 +33,7 @@ In the initiaal data preparation phase, we performed the following tasks:
 3. Data cleaning and formatting
 
 ### Data Visualization
+---
 #### KPI’s
 The dashboard provides insights into key performance indicators (KPIs) related to the sales data. This enables users to make informed decisions, monitor their progress, and identify trends and opportunities for growth.
   1. Sales Overview:
@@ -70,12 +72,14 @@ The analysis results are summarized as follows:
 2. Product category A is the best-performing category in terms of sales and revenue.
 3. Customer segment with high lifetime value should be targeted for marketing efforts.
 
-### Recomendations 
-(sample text)
-Based on the analyis, we recommend the following actions:
-- Invest in marketing and promotions during peadk sales season to maximize revenue
-- Focus on expanding and promoting products in Category A
-- Implement a customer segmentation strategy to target high-LTV customers effectively.
+
+### Recomendations
+sample text
+Based on the analysis, I recommend the following actions:
+
+(sample text) 
+  Based on the analyis, we recommend the following actions:
+- 
 
 ### Limitations 
 (sample text)
@@ -84,6 +88,13 @@ I had to remove all zero values from budget and revenue columns because they wou
 ### References
 1.Guided Project [YouTube](https://www.youtube.com/watch?v=XnPo5Ft7RzQ)
 
+😄
+💻
+|Heading1|Heading2|
+|--------|--------|
+|Content1|Content2|
 
+**bold**
 
+*italic*
 
