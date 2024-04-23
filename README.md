@@ -23,7 +23,6 @@ Car Sales: The dataset used for this analysis is the "Car Sales.xlsx" file conta
 
 ### Tools
 - Excel - Data Cleaning
-  - [Download here](https://microsoft.com)
 - Power BI - Creating Reports
 
 ### Data Cleaning and Preparation
