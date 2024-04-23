@@ -69,11 +69,9 @@ The analysis results are summarized as follows:
 2. Product category A is the best-performing category in terms of sales and revenue.
 3. Customer segment with high lifetime value should be targeted for marketing efforts.
 
-
 ### Recomendations
 
-Based on the analyis, I recommend the following actions:
-- 
+
 
 ### References
 1.Guided Project [YouTube](https://www.youtube.com/watch?v=XnPo5Ft7RzQ)
