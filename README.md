@@ -60,11 +60,6 @@ The dashboard provides insights into key performance indicators (KPIs) related t
 
 I used advanced DAX Functions
 
-Include some interesting code/features worked with. Here we include if we used subquery, cte, window function, etc.
-
-```sql 
-SELECT * FROM table1 WHERE cond = 2;
-```
 ### Results and Findings
 The analysis results are summarized as follows:
 1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season.
@@ -76,8 +71,8 @@ The analysis results are summarized as follows:
 sample text
 Based on the analysis, I recommend the following actions:
 
-(sample text) 
-  Based on the analyis, we recommend the following actions:
+
+Based on the analyis, we recommend the following actions:
 - 
 
 ### Limitations 
@@ -86,14 +81,3 @@ I had to remove all zero values from budget and revenue columns because they wou
 
 ### References
 1.Guided Project [YouTube](https://www.youtube.com/watch?v=XnPo5Ft7RzQ)
-
-😄
-💻
-|Heading1|Heading2|
-|--------|--------|
-|Content1|Content2|
-
-**bold**
-
-*italic*
-
