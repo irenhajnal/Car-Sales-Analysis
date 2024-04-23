@@ -8,7 +8,7 @@
 - [Data Visualization](#data-visualization)
 - [Results and Findings](#results-and-findings)
 - [Recomendations](#recomendations)
-- [Limitations](#limitations)
+
 
 ### Project Overview
 ---
@@ -58,7 +58,10 @@ The dashboard provides insights into key performance indicators (KPIs) related t
   5.	Company-Wise Sales Trend in Grid Form: A tabular grid that displays the sales trend for each company. The grid showcases the company name along with their YTD sales figures.
   6.	Details Grid Showing All Car Sales Information: A detailed grid that presents all relevant information for each car sale, including car model, body style, colour, sales amount, dealer region, date, etc.
 
-I used advanced DAX Functions
+**Advanced DAX Functions**
+1. Built a calendar table: to ensure that all the calendar days are included from the start to the end, as the original dataset my not have data for each and every day. This will give the ability to perform different data operations, such as Year To Date (YTD), Year over Year (YOY), Month to Date (MTD)
+ - **Calendar Table = CALENDAR(MIN(car_data[Date],MAX(car_data[Date]))**
+- 
 
 ### Results and Findings
 The analysis results are summarized as follows:
@@ -68,16 +71,9 @@ The analysis results are summarized as follows:
 
 
 ### Recomendations
-sample text
-Based on the analysis, I recommend the following actions:
 
-
-Based on the analyis, we recommend the following actions:
+Based on the analyis, I recommend the following actions:
 - 
-
-### Limitations 
-(sample text)
-I had to remove all zero values from budget and revenue columns because they would have affected the accuracy of my conclusions from the analysis. There are a few outliers even after the omission but even then we can still see that there is a positive correlation between both budget and ....
 
 ### References
 1.Guided Project [YouTube](https://www.youtube.com/watch?v=XnPo5Ft7RzQ)
