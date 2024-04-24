@@ -26,9 +26,9 @@ Car Sales: The dataset used for this analysis is the "Car Sales.xlsx" file conta
 - Power BI - Creating Reports
 
 ### Data Cleaning and Preparation
-In the initiaal data preparation phase, we performed the following tasks:
+In the initiaal data preparation phase, I performed the following tasks:
 1. Data loading and inspection
-2. Handling missing values
+2. Checking for missing values
 3. Data cleaning and formatting
 
 ### Data Visualization
@@ -58,19 +58,27 @@ The dashboard provides insights into key performance indicators (KPIs) related t
   5.	Company-Wise Sales Trend in Grid Form: A tabular grid that displays the sales trend for each company. The grid showcases the company name along with their YTD sales figures.
   6.	Details Grid Showing All Car Sales Information: A detailed grid that presents all relevant information for each car sale, including car model, body style, colour, sales amount, dealer region, date, etc.
 
-**Advanced DAX Functions**
-1. Built a calendar table: to ensure that all the calendar days are included from the start to the end, as the original dataset my not have data for each and every day. This will give the ability to perform different data operations, such as Year To Date (YTD), Year over Year (YOY), Month to Date (MTD)
- - **Calendar Table = CALENDAR(MIN(car_data[Date],MAX(car_data[Date]))**
-- 
+### Functions Used ###
+---
+**1. Created a calendar table in DAX**: to ensure that all the calendar days are included from the start to the end, as the original dataset my not have data for each and every day. This will give the ability to perform different data operations, such as Year To Date (YTD), Year over Year (YOY), Month to Date (MTD)
+   
+                 Calendar Table = CALENDAR(MIN(car_data[Date],MAX(car_data[Date]))
+  
+**2. Time Intelligence Functions**: created new measures using TOTALMTD, SAMEPERIODLASTYEAR, TOTALYTD
+
+                YTD Avg Price = TOTALYTD(AVERAGE(car_data[Price ($)]),'Calendar'[Date])
+
+**3. Filter Functions**: ALLSELECTED
+
+                 Max Point on Area Chart = IF(MAXX(ALLSELECTED('Calendar'[Week]),[Total Sales])=[Total Sales],MAXX(ALLSELECTED('Calendar'[Week]),[Total Sales]),BLANK())
 
 ### Results and Findings
 The analysis results are summarized as follows:
 1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season.
-2. Product category A is the best-performing category in terms of sales and revenue.
-3. Customer segment with high lifetime value should be targeted for marketing efforts.
+2. Product category A is the best-performing category in terms of sales and revenue. 
 
 ### Recomendations
-
+Customer segment with high lifetime value should be targeted for marketing efforts.
 
 
 ### References
