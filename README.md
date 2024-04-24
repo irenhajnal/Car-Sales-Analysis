@@ -6,6 +6,7 @@
 - [Tools](#tools)
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 - [Data Visualization](#data-visualization)
+- [Functions Used](#functions-used)
 - [Results and Findings](#results-and-findings)
 - [Recomendations](#recomendations)
 
